@@ -35,4 +35,4 @@ app.use("/api/usuarios", usuarioRoutes);
 
 // Usar el puerto definido en el archivo .env (que debe ser 4001)
 const PORT = process.env.PORT || 4001;
-app.listen(PORT, () => console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`));
+app.listen(PORT, () => console.log('🚀 Servidor corriendo en http://localhost:${PORT}'));
